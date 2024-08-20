@@ -26,6 +26,7 @@ const shadeMapping = {
   "900": "50",
 };
 
+// function to setup the colors depending upon the theme, whether it's dark mode or light mode
 const generateThemeObject = (colors: any, mapping: any, invert = false) => {
   const theme: any = {};
   baseColors.forEach((color) => {
